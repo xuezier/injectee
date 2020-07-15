@@ -1,0 +1,35 @@
+{
+  "name": "injectee",
+  "version": "0.0.0",
+  "description": "build egg application using typescript",
+  "main": "app/index.js",
+  "types": "app/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+      "inject",
+      "injector",
+      "injectee",
+      "typescript"
+  ],
+  "maintainers": [{
+      "name": "tunan",
+      "email": "tunan@gaoding.com"
+  }],
+  "author": "tunan <tunan@gaoding.com>",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "typescript": "^3.9.6"
+  },
+  "files": [
+      "app",
+      "README.md"
+  ]
+}
