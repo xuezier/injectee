@@ -1,4 +1,5 @@
 # Injectee
+[![NPM version][npm-image]][npm-url]
 
 register a component and use it in a vendor everywhere when using typescript! 💗
 
@@ -43,3 +44,6 @@ console.log(me.dog === she.dog);    // true, dog is injected as a single instanc
 console.log(me.getMyDog());         // Dog {}
 me.dog.say();                       // wang wang
 ```
+
+[npm-image]: https://img.shields.io/npm/v/injectee.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/injectee
